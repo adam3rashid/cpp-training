@@ -48,7 +48,7 @@ int main(){
     std::cout << std::endl;
     std::cout << "Formatted table with variables: " << std::endl;
     
-    int col_width{14};
+    int col_width{14};  //better design as you can reuse this rather than the above way
     
     
     std::cout << std::setw(col_width) <<  "Lastname"  << std::setw(col_width) << "Firstname" << std::setw(col_width/2) << "Age" << std::endl;
